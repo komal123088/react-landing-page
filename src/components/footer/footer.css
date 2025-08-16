@@ -1,0 +1,98 @@
+.text {
+  display: flex;
+  justify-content: space-between;
+  background: #1e1e2080;
+  height: 430px;
+  position: relative;
+}
+
+.footer-heading {
+  margin-top: 50px;
+  width: 50%;
+  text-align: left;
+}
+.footer-heading h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.footer-btn {
+  width: 50%;
+  margin-top: 60px;
+  text-align: center;
+}
+.footer-btn button {
+  margin-top: 70px;
+  padding: 8px 18px;
+  color: #fff;
+  background-color: #5454d4;
+  border: none;
+}
+
+.footer-vector .last-vec {
+  position: absolute;
+
+  left: 8%;
+  bottom: 0;
+}
+.footer-vector .last-vec2 {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+.footer .last-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 5px;
+}
+.footer-logo h1 {
+  margin-top: -5px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 40px;
+}
+.footer-list a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .text {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+  }
+
+  .footer-heading,
+  .footer-btn {
+    width: 100%;
+  }
+
+  .footer-heading h1 {
+    font-size: 24px;
+  }
+
+  .footer-btn button {
+    margin-top: 30px;
+  }
+
+  .footer .last-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  background: #19191b;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #5454d4;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #19191b;
+  color: #fff;
+}
+
+.section {
+  padding: 18px 70px;
+}
+button {
+  cursor: pointer;
+}
